@@ -1,0 +1,1636 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2487.5">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;!DOCTYPE html&gt;</p>
+<p class="p1">&lt;html lang="zh-CN"&gt;</p>
+<p class="p1">&lt;head&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta charset="UTF-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;title&gt;财启星盘 · 家居财能空间诊断&lt;/title&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;style&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>:root {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>--primary-dark: #0a0a14;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>--secondary-dark: #1a1a2e;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>--accent-gold: #d4af37;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>--accent-light: #f5e8b5;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>--text-primary: #f0f0f0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>--text-secondary: #b0b0c0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>--success: #2ecc71;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>--warning: #f39c12;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>--danger: #e74c3c;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>* {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin: 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>box-sizing: border-box;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-family: 'Segoe UI', 'Microsoft YaHei', sans-serif;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>body {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: var(--primary-dark);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: var(--text-primary);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>line-height: 1.6;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>overflow-x: hidden;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-image:<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>radial-gradient(circle at 10% 20%, rgba(42, 44, 78, 0.2) 0%, transparent 20%),</p>
+<p class="p1"><span class="Apple-converted-space">                </span>radial-gradient(circle at 90% 80%, rgba(212, 175, 55, 0.1) 0%, transparent 20%);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>min-height: 100vh;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.container {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>max-width: 1200px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin: 0 auto;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 0 20px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>/* 头部样式 */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>header {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 30px 0 20px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>text-align: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-bottom: 1px solid rgba(212, 175, 55, 0.3);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: relative;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>overflow: hidden;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.logo {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>align-items: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>justify-content: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-bottom: 15px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.logo-icon {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 2.5rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: var(--accent-gold);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-right: 15px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.logo-text h1 {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 2.2rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: linear-gradient(to right, var(--accent-gold), var(--accent-light));</p>
+<p class="p1"><span class="Apple-converted-space">            </span>-webkit-background-clip: text;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-clip: text;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: transparent;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>letter-spacing: 2px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.logo-text .subtitle {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: var(--text-secondary);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 0.9rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>letter-spacing: 3px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-top: 5px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.tagline {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 1.1rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: var(--accent-light);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>max-width: 700px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin: 0 auto;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>line-height: 1.8;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>/* 进度指示器 */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.progress-container {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>justify-content: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin: 30px auto;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>max-width: 800px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.progress-step {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>flex-direction: column;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>align-items: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: relative;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: 25%;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.step-number {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: 40px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>height: 40px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 50%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: var(--secondary-dark);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: var(--text-secondary);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>align-items: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>justify-content: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-weight: bold;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-bottom: 10px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border: 2px solid var(--secondary-dark);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transition: all 0.3s ease;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>z-index: 2;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.step-number.active {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: var(--accent-gold);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: var(--primary-dark);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-color: var(--accent-light);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>box-shadow: 0 0 15px rgba(212, 175, 55, 0.5);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.step-number.completed {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: var(--success);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: white;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-color: var(--success);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.step-text {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 0.85rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: var(--text-secondary);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>text-align: center;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.progress-step:not(:last-child)::after {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>content: '';</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: absolute;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>top: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>left: 70px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: calc(100% - 40px);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>height: 2px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: var(--secondary-dark);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>z-index: 1;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.progress-step.active::after {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: var(--secondary-dark);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.progress-step.completed::after {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: var(--success);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>/* 测试区域 */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.test-container {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: var(--secondary-dark);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 15px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 40px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin: 30px 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border: 1px solid rgba(212, 175, 55, 0.1);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: relative;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.test-container::before {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>content: '';</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: absolute;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>top: -2px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>left: -2px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>right: -2px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>bottom: -2px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: linear-gradient(45deg, var(--accent-gold), transparent, var(--accent-gold));</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 17px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>z-index: -1;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>opacity: 0.1;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.step-content {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: none;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>animation: fadeIn 0.5s ease;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.step-content.active {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: block;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>@keyframes fadeIn {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>from { opacity: 0; transform: translateY(10px); }</p>
+<p class="p1"><span class="Apple-converted-space">            </span>to { opacity: 1; transform: translateY(0); }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.step-title {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 1.8rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: var(--accent-light);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-bottom: 25px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>text-align: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: relative;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding-bottom: 15px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.step-title::after {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>content: '';</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: absolute;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>bottom: 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>left: 50%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transform: translateX(-50%);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: 80px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>height: 3px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: linear-gradient(to right, transparent, var(--accent-gold), transparent);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>/* 步骤1：用户信息 */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.user-info-form {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: grid;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));</p>
+<p class="p1"><span class="Apple-converted-space">            </span>gap: 25px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.form-group {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-bottom: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.form-label {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: block;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-bottom: 8px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: var(--accent-light);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 1.1rem;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.form-input, .form-select {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: 100%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 14px 18px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: rgba(10, 10, 20, 0.7);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border: 1px solid rgba(212, 175, 55, 0.3);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 8px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: var(--text-primary);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 1rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transition: all 0.3s ease;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.form-input:focus, .form-select:focus {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>outline: none;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-color: var(--accent-gold);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>box-shadow: 0 0 0 2px rgba(212, 175, 55, 0.2);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>/* 步骤2：房屋布局 */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.layout-container {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>flex-direction: column;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>align-items: center;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.layout-grid {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: grid;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>grid-template-columns: repeat(3, 1fr);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>grid-template-rows: repeat(3, 1fr);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>gap: 10px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: 300px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>height: 300px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin: 30px auto;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: relative;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.grid-cell {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: rgba(10, 10, 20, 0.7);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border: 1px solid rgba(255, 255, 255, 0.1);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 5px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>flex-direction: column;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>align-items: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>justify-content: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>cursor: pointer;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transition: all 0.3s ease;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: relative;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 10px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.grid-cell:hover {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-color: var(--accent-gold);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transform: translateY(-5px);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.grid-cell.selected {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-color: var(--accent-gold);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: rgba(212, 175, 55, 0.1);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>box-shadow: 0 5px 15px rgba(212, 175, 55, 0.2);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.direction-label {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 1.2rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-weight: bold;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: var(--accent-gold);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.position-label {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 0.8rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: var(--text-secondary);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-top: 5px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.item-icon {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-top: 8px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 1.5rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: var(--accent-light);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.item-selector {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>flex-wrap: wrap;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>justify-content: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>gap: 15px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-top: 30px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.item-option {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>flex-direction: column;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>align-items: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 15px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: rgba(10, 10, 20, 0.7);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 10px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border: 1px solid rgba(255, 255, 255, 0.1);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>cursor: pointer;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transition: all 0.3s ease;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: 120px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.item-option:hover {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-color: var(--accent-gold);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transform: translateY(-5px);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.item-option.selected {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-color: var(--accent-gold);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: rgba(212, 175, 55, 0.1);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.item-option i {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 2rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-bottom: 10px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: var(--accent-gold);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>/* 步骤3：能量评估 */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.energy-assessment {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>max-width: 800px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin: 0 auto;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.energy-question {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: rgba(10, 10, 20, 0.5);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 10px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 25px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-bottom: 25px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-left: 4px solid var(--accent-gold);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.question-text {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 1.2rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-bottom: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: var(--accent-light);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.options-container {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: grid;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));</p>
+<p class="p1"><span class="Apple-converted-space">            </span>gap: 15px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.option {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 15px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: rgba(255, 255, 255, 0.05);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 8px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>cursor: pointer;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transition: all 0.3s ease;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border: 1px solid transparent;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.option:hover {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: rgba(212, 175, 55, 0.1);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-color: rgba(212, 175, 55, 0.3);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.option.selected {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: rgba(212, 175, 55, 0.15);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-color: var(--accent-gold);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>/* 步骤4：结果报告 */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.result-container {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>max-width: 900px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin: 0 auto;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.report-header {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>text-align: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-bottom: 40px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.report-title {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 2.2rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: linear-gradient(to right, var(--accent-gold), var(--accent-light));</p>
+<p class="p1"><span class="Apple-converted-space">            </span>-webkit-background-clip: text;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-clip: text;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: transparent;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-bottom: 15px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.user-summary {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: var(--text-secondary);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 1.1rem;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.report-section {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: rgba(10, 10, 20, 0.5);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 10px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 30px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-bottom: 30px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-top: 3px solid var(--accent-gold);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.section-title {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 1.5rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: var(--accent-light);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-bottom: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>align-items: center;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.section-title i {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-right: 10px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: var(--accent-gold);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.energy-radar {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>justify-content: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin: 30px 0;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.radar-chart {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: relative;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: 300px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>height: 300px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.radar-grid {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: absolute;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: 100%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>height: 100%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 50%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border: 1px solid rgba(255, 255, 255, 0.1);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.radar-grid:nth-child(2) {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transform: scale(0.66);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.radar-grid:nth-child(3) {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transform: scale(0.33);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.radar-point {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: absolute;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: 10px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>height: 10px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: var(--accent-gold);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 50%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transform: translate(-50%, -50%);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.radar-label {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: absolute;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: var(--text-secondary);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 0.9rem;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.solutions-grid {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: grid;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));</p>
+<p class="p1"><span class="Apple-converted-space">            </span>gap: 25px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-top: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.solution-card {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: linear-gradient(145deg, rgba(26, 26, 46, 0.8), rgba(10, 10, 20, 0.8));</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 10px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 25px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-left: 4px solid var(--accent-gold);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.solution-title {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 1.3rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: var(--accent-light);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-bottom: 15px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>align-items: center;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.solution-title i {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-right: 10px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: var(--accent-gold);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.recommended-products {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>overflow-x: auto;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>gap: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 20px 0;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.product-card {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>flex: 0 0 auto;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: 200px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: rgba(10, 10, 20, 0.7);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 10px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>overflow: hidden;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border: 1px solid rgba(212, 175, 55, 0.2);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transition: all 0.3s ease;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.product-card:hover {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transform: translateY(-10px);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-color: var(--accent-gold);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.product-img {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>height: 150px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: rgba(212, 175, 55, 0.1);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>align-items: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>justify-content: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 3rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: var(--accent-gold);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.product-info {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 15px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.product-name {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 1.1rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: var(--accent-light);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-bottom: 8px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.product-price {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: var(--accent-gold);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-weight: bold;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 1.2rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-bottom: 15px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.btn-buy {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: block;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: 100%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 10px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: var(--accent-gold);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: var(--primary-dark);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border: none;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 5px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-weight: bold;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>cursor: pointer;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transition: all 0.3s ease;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>text-align: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>text-decoration: none;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.btn-buy:hover {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: var(--accent-light);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transform: translateY(-2px);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>/* 按钮样式 */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.btn {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 14px 30px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: var(--accent-gold);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: var(--primary-dark);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border: none;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 8px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 1.1rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-weight: bold;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>cursor: pointer;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transition: all 0.3s ease;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: inline-flex;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>align-items: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>justify-content: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>text-decoration: none;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.btn:hover {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: var(--accent-light);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transform: translateY(-3px);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>box-shadow: 0 7px 15px rgba(212, 175, 55, 0.3);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.btn:disabled {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: var(--text-secondary);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>cursor: not-allowed;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transform: none;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>box-shadow: none;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.btn i {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-right: 8px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.btn-secondary {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: transparent;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: var(--accent-gold);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border: 1px solid var(--accent-gold);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.btn-secondary:hover {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: rgba(212, 175, 55, 0.1);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.navigation-buttons {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>justify-content: space-between;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-top: 40px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>/* 分享按钮 */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.share-container {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>text-align: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-top: 40px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding-top: 30px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-top: 1px solid rgba(255, 255, 255, 0.1);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.share-title {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: var(--text-secondary);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-bottom: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.share-buttons {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>justify-content: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>gap: 15px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.share-btn {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: 50px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>height: 50px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 50%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>align-items: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>justify-content: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: white;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 1.2rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>cursor: pointer;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transition: all 0.3s ease;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.share-wechat {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: #09bb07;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.share-redbook {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: #ff2442;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.share-copy {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: var(--accent-gold);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.share-btn:hover {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transform: translateY(-5px);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>/* 底部 */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>footer {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>text-align: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 40px 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: var(--text-secondary);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 0.9rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-top: 1px solid rgba(212, 175, 55, 0.1);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-top: 50px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.disclaimer {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>max-width: 800px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin: 20px auto;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: rgba(10, 10, 20, 0.5);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 10px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 0.85rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>line-height: 1.7;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>/* 响应式设计 */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>@media (max-width: 768px) {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>.container {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>padding: 0 15px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>.logo-text h1 {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>font-size: 1.8rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>.test-container {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>padding: 25px 20px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>.progress-step::after {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>display: none;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>.progress-step {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>width: auto;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>margin: 0 10px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>.progress-container {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>flex-wrap: wrap;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>.layout-grid {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>width: 250px;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>height: 250px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>.solutions-grid {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>grid-template-columns: 1fr;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>.navigation-buttons {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>flex-direction: column;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>gap: 15px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>.btn {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>width: 100%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/style&gt;</p>
+<p class="p1">&lt;/head&gt;</p>
+<p class="p1">&lt;body&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="container"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- 头部 --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;header&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="logo"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="logo-icon"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;i class="fas fa-star-and-crescent"&gt;&lt;/i&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="logo-text"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h1&gt;财启星盘&lt;/h1&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="subtitle"&gt;HOME ENERGY DIAGNOSIS&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p class="tagline"&gt;基于千年风水智慧与现代环境心理学，诊断您的家居财能格局，提供个性化能量优化方案&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/header&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- 进度指示器 --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="progress-container"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="progress-step completed" id="step1-indicator"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="step-number"&gt;1&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="step-text"&gt;个人信息&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="progress-step active" id="step2-indicator"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="step-number"&gt;2&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="step-text"&gt;房屋布局&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="progress-step" id="step3-indicator"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="step-number"&gt;3&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="step-text"&gt;能量评估&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="progress-step" id="step4-indicator"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="step-number"&gt;4&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="step-text"&gt;诊断报告&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- 测试容器 --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="test-container"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;!-- 步骤1：用户信息 --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="step-content active" id="step1"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;h2 class="step-title"&gt;第一步：个人信息与能量基础&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;form class="user-info-form"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="form-group"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;label class="form-label"&gt;您的称呼&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;input type="text" class="form-input" id="user-name" placeholder="请输入您的姓名或昵称"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="form-group"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;label class="form-label"&gt;出生年份&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;select class="form-select" id="birth-year"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;option value=""&gt;请选择出生年份&lt;/option&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;!-- 年份选项由JavaScript生成 --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/select&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="form-group"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;label class="form-label"&gt;您的职业类型&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;select class="form-select" id="career-type"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;option value=""&gt;请选择最接近的职业类型&lt;/option&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;option value="metal"&gt;金融/法律/管理（金）&lt;/option&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;option value="wood"&gt;教育/文化/创意（木）&lt;/option&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;option value="water"&gt;贸易/物流/咨询（水）&lt;/option&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;option value="fire"&gt;科技/能源/餐饮（火）&lt;/option&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;option value="earth"&gt;房地产/建筑/农业（土）&lt;/option&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/select&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="form-group"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;label class="form-label"&gt;近期最大财务困惑&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;select class="form-select" id="financial-issue"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;option value=""&gt;请选择最困扰您的财务问题&lt;/option&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;option value="income"&gt;收入增长停滞，努力无果&lt;/option&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;option value="opportunity"&gt;机会总是擦肩而过&lt;/option&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;option value="saving"&gt;存不住钱，莫名消耗&lt;/option&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;option value="investment"&gt;投资决策常出错&lt;/option&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;option value="balance"&gt;收支难以平衡&lt;/option&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/select&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/form&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="navigation-buttons"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;button class="btn btn-secondary" disabled&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;i class="fas fa-arrow-left"&gt;&lt;/i&gt; 上一步</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;button class="btn" id="next-to-step2"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>下一步 &lt;i class="fas fa-arrow-right"&gt;&lt;/i&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;!-- 步骤2：房屋布局 --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="step-content" id="step2"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;h2 class="step-title"&gt;第二步：家居空间布局诊断&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;p style="text-align: center; margin-bottom: 30px; color: var(--text-secondary);"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>请点击您家客厅中以下物品实际摆放的位置（以客厅中心为参考点）</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="layout-container"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="layout-grid" id="layout-grid"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;!-- 网格单元格由JavaScript生成 --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span></p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="item-selector" id="item-selector"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;!-- 物品选项由JavaScript生成 --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="navigation-buttons"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;button class="btn btn-secondary" id="back-to-step1"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;i class="fas fa-arrow-left"&gt;&lt;/i&gt; 上一步</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;button class="btn" id="next-to-step3"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>下一步 &lt;i class="fas fa-arrow-right"&gt;&lt;/i&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;!-- 步骤3：能量评估 --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="step-content" id="step3"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;h2 class="step-title"&gt;第三步：个人财能能量评估&lt;/h2&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="energy-assessment"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="energy-question"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="question-text"&gt;1. 当您进入家门时，通常的第一感觉是？&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="options-container"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div class="option" data-value="crowded"&gt;A. 有点拥挤，物品较多&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div class="option" data-value="empty"&gt;B. 空旷冷清，缺乏生气&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div class="option" data-value="bright"&gt;C. 明亮舒适，心情放松&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div class="option" data-value="dark"&gt;D. 昏暗沉闷，想尽快离开&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span></p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="energy-question"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="question-text"&gt;2. 您家中是否有堆积超过半年未处理的旧物或杂物？&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="options-container"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div class="option" data-value="many"&gt;A. 很多，各个角落都有&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div class="option" data-value="some"&gt;B. 有一些，主要在储藏室&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div class="option" data-value="few"&gt;C. 很少，定期清理&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div class="option" data-value="none"&gt;D. 几乎没有，保持极简&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span></p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="energy-question"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="question-text"&gt;3. 您家中的绿植或水元素（鱼缸、流水摆件等）状况如何？&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="options-container"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div class="option" data-value="lush"&gt;A. 茂盛生长，维护良好&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div class="option" data-value="some-dead"&gt;B. 有一些但状态不佳&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div class="option" data-value="none"&gt;C. 几乎没有这类元素&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div class="option" data-value="artificial"&gt;D. 只有人造装饰&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span></p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="energy-question"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="question-text"&gt;4. 您的财务状况让您感到最有压力的是？&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="options-container"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div class="option" data-value="stagnation"&gt;A. 收入停滞，缺乏增长&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div class="option" data-value="instability"&gt;B. 波动太大，缺乏稳定&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div class="option" data-value="leakage"&gt;C. 莫名其妙的花销&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div class="option" data-value="opportunity"&gt;D. 抓不住好机会&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="navigation-buttons"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;button class="btn btn-secondary" id="back-to-step2"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;i class="fas fa-arrow-left"&gt;&lt;/i&gt; 上一步</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;button class="btn" id="generate-report"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;i class="fas fa-chart-bar"&gt;&lt;/i&gt; 生成诊断报告</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;!-- 步骤4：结果报告 --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="step-content" id="step4"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="result-container"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="report-header"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;h2 class="report-title"&gt;家居财能空间诊断报告&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="user-summary"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;span id="report-user-name"&gt;用户&lt;/span&gt; ·<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;span id="report-career-type"&gt;职业类型&lt;/span&gt; ·<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;span id="report-date"&gt;生成日期&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span></p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;!-- 能量格局总览 --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="report-section"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;h3 class="section-title"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;i class="fas fa-compass"&gt;&lt;/i&gt; 能量格局总览</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;p&gt;基于您的个人信息与家居布局分析，您的财能格局在四个关键维度上的表现如下：&lt;/p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span></p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="energy-radar"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div class="radar-chart" id="radar-chart"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;!-- 雷达图由JavaScript生成 --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span></p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div style="display: flex; justify-content: space-around; flex-wrap: wrap; margin-top: 30px;"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div style="text-align: center; margin: 10px;"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;div style="font-size: 1.8rem; color: var(--accent-gold);" id="score-opportunity"&gt;0&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;div style="color: var(--text-secondary);"&gt;机遇敏感度&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div style="text-align: center; margin: 10px;"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;div style="font-size: 1.8rem; color: var(--accent-gold);" id="score-risk"&gt;0&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;div style="color: var(--text-secondary);"&gt;风险抵御力&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div style="text-align: center; margin: 10px;"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;div style="font-size: 1.8rem; color: var(--accent-gold);" id="score-stability"&gt;0&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;div style="color: var(--text-secondary);"&gt;积累稳定性&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div style="text-align: center; margin: 10px;"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;div style="font-size: 1.8rem; color: var(--accent-gold);" id="score-help"&gt;0&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;div style="color: var(--text-secondary);"&gt;贵人运势&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span></p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;!-- 核心问题诊断 --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="report-section"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;h3 class="section-title"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;i class="fas fa-search"&gt;&lt;/i&gt; 核心问题诊断</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div id="problem-diagnosis"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;!-- 诊断内容由JavaScript生成 --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span></p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;!-- 定制化调整方案 --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="report-section"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;h3 class="section-title"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;i class="fas fa-tools"&gt;&lt;/i&gt; 定制化调整方案</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;p&gt;根据您的能量诊断结果，我们为您提供以下三步调整建议：&lt;/p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span></p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="solutions-grid"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div class="solution-card"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;h4 class="solution-title"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                    </span>&lt;i class="fas fa-arrows-alt-h"&gt;&lt;/i&gt; 移 · 清理阻塞</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;/h4&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;div id="solution-move"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                    </span>&lt;!-- 移动方案由JavaScript生成 --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span></p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div class="solution-card"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;h4 class="solution-title"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                    </span>&lt;i class="fas fa-plus-circle"&gt;&lt;/i&gt; 增 · 引入能量</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;/h4&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;div id="solution-add"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                    </span>&lt;!-- 增加方案由JavaScript生成 --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span></p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div class="solution-card"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;h4 class="solution-title"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                    </span>&lt;i class="fas fa-gem"&gt;&lt;/i&gt; 聚 · 核心强化</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;/h4&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;div id="solution-strengthen"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                    </span>&lt;!-- 强化方案由JavaScript生成 --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span></p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;!-- 推荐产品 --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="report-section"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;h3 class="section-title"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;i class="fas fa-crown"&gt;&lt;/i&gt; 能量强化推荐</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;p&gt;以下物品根据您的五行属性与能量需求特别推荐，可强化家居财能场：&lt;/p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span></p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="recommended-products" id="recommended-products"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;!-- 推荐产品由JavaScript生成 --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span></p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="share-container"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;h4 class="share-title"&gt;分享诊断报告，与好友一起提升财能&lt;/h4&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="share-buttons"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div class="share-btn share-wechat" title="分享到微信"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;i class="fab fa-weixin"&gt;&lt;/i&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div class="share-btn share-redbook" title="分享到小红书"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;i class="fab fa-weibo"&gt;&lt;/i&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div class="share-btn share-copy" title="复制报告链接" id="copy-link"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;i class="fas fa-link"&gt;&lt;/i&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span></p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="navigation-buttons"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;button class="btn btn-secondary" id="back-to-step3"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;i class="fas fa-redo"&gt;&lt;/i&gt; 重新测试</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;button class="btn" id="save-report"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;i class="fas fa-download"&gt;&lt;/i&gt; 保存报告</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- 免责声明 --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="disclaimer"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p&gt;&lt;strong&gt;免责声明：&lt;/strong&gt;本测试基于传统风水学与环境心理学原理，旨在提供家居优化建议与积极心理暗示。所有结果仅供娱乐与参考，不构成投资或财务建议。财运提升需结合个人努力与理性决策，我们鼓励您以积极心态面对生活，通过实际行动创造美好未来。&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;footer&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p&gt;© 2023 财启星盘 · 家居能量诊断系统 | 本内容仅供娱乐参考&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/footer&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;script&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>document.addEventListener('DOMContentLoaded', function() {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>// 全局数据存储</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const userData = {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>name: '',</p>
+<p class="p1"><span class="Apple-converted-space">                </span>birthYear: '',</p>
+<p class="p1"><span class="Apple-converted-space">                </span>careerType: '',</p>
+<p class="p1"><span class="Apple-converted-space">                </span>financialIssue: '',</p>
+<p class="p1"><span class="Apple-converted-space">                </span>layout: {},</p>
+<p class="p1"><span class="Apple-converted-space">                </span>energyAnswers: {},</p>
+<p class="p1"><span class="Apple-converted-space">                </span>reportGenerated: false</p>
+<p class="p1"><span class="Apple-converted-space">            </span>};</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>// 步骤管理</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const steps = document.querySelectorAll('.step-content');</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const stepIndicators = document.querySelectorAll('.progress-step');</p>
+<p class="p1"><span class="Apple-converted-space">            </span>let currentStep = 1;</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>// 步骤切换函数</p>
+<p class="p1"><span class="Apple-converted-space">            </span>function goToStep(stepNumber) {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>// 隐藏所有步骤</p>
+<p class="p1"><span class="Apple-converted-space">                </span>steps.forEach(step =&gt; step.classList.remove('active'));</p>
+<p class="p1"><span class="Apple-converted-space">                </span>// 显示目标步骤</p>
+<p class="p1"><span class="Apple-converted-space">                </span>document.getElementById(`step${stepNumber}`).classList.add('active');</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>// 更新进度指示器</p>
+<p class="p1"><span class="Apple-converted-space">                </span>stepIndicators.forEach((indicator, index) =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>indicator.classList.remove('active', 'completed');</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>if (index + 1 &lt; stepNumber) {</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>indicator.classList.add('completed');</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>} else if (index + 1 === stepNumber) {</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>indicator.classList.add('active');</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">                </span>});</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>currentStep = stepNumber;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>// 初始化步骤1：出生年份选项</p>
+<p class="p1"><span class="Apple-converted-space">            </span>function initBirthYearOptions() {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>const yearSelect = document.getElementById('birth-year');</p>
+<p class="p1"><span class="Apple-converted-space">                </span>const currentYear = new Date().getFullYear();</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>for (let year = currentYear; year &gt;= currentYear - 80; year--) {</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>const option = document.createElement('option');</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>option.value = year;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>option.textContent = year + '年';</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>yearSelect.appendChild(option);</p>
+<p class="p1"><span class="Apple-converted-space">                </span>}</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>// 初始化步骤2：布局网格</p>
+<p class="p1"><span class="Apple-converted-space">            </span>function initLayoutGrid() {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>const grid = document.getElementById('layout-grid');</p>
+<p class="p1"><span class="Apple-converted-space">                </span>const directions = [</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>{ dir: '北', pos: '正北位', key: 'north', row: 1, col: 2 },</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>{ dir: '东北', pos: '东北位', key: 'northeast', row: 1, col: 3 },</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>{ dir: '东', pos: '正东位', key: 'east', row: 2, col: 3 },</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>{ dir: '东南', pos: '东南位', key: 'southeast', row: 3, col: 3 },</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>{ dir: '南', pos: '正南位', key: 'south', row: 3, col: 2 },</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>{ dir: '西南', pos: '西南位', key: 'southwest', row: 3, col: 1 },</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>{ dir: '西', pos: '正西位', key: 'west', row: 2, col: 1 },</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>{ dir: '西北', pos: '西北位', key: 'northwest', row: 1, col: 1 }</p>
+<p class="p1"><span class="Apple-converted-space">                </span>];</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>// 中心单元格</p>
+<p class="p1"><span class="Apple-converted-space">                </span>const centerCell = document.createElement('div');</p>
+<p class="p1"><span class="Apple-converted-space">                </span>centerCell.className = 'grid-cell';</p>
+<p class="p1"><span class="Apple-converted-space">                </span>centerCell.style.gridColumn = '2';</p>
+<p class="p1"><span class="Apple-converted-space">                </span>centerCell.style.gridRow = '2';</p>
+<p class="p1"><span class="Apple-converted-space">                </span>centerCell.innerHTML = `</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="direction-label"&gt;中心&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="position-label"&gt;太极位&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="item-icon"&gt;&lt;i class="fas fa-home"&gt;&lt;/i&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>`;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>grid.appendChild(centerCell);</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>// 八个方向单元格</p>
+<p class="p1"><span class="Apple-converted-space">                </span>directions.forEach(dir =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>const cell = document.createElement('div');</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>cell.className = 'grid-cell';</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>cell.style.gridColumn = dir.col;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>cell.style.gridRow = dir.row;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>cell.dataset.direction = dir.key;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>cell.innerHTML = `</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="direction-label"&gt;${dir.dir}&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="position-label"&gt;${dir.pos}&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="item-icon"&gt;&lt;i class="fas fa-question"&gt;&lt;/i&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>`;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span></p>
+<p class="p1"><span class="Apple-converted-space">                    </span>// 点击选择物品</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>cell.addEventListener('click', function() {</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>const selectedItem = document.querySelector('.item-option.selected');</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>if (selectedItem) {</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>const itemType = selectedItem.dataset.item;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>const iconClass = selectedItem.querySelector('i').className;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span></p>
+<p class="p1"><span class="Apple-converted-space">                            </span>// 更新单元格显示</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>this.querySelector('.item-icon').innerHTML = `&lt;i class="${iconClass}"&gt;&lt;/i&gt;`;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>this.dataset.item = itemType;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span></p>
+<p class="p1"><span class="Apple-converted-space">                            </span>// 存储到用户数据</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>userData.layout[dir.key] = itemType;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>});</p>
+<p class="p2"><span class="Apple-converted-space">                    </span></p>
+<p class="p1"><span class="Apple-converted-space">                    </span>grid.appendChild(cell);</p>
+<p class="p1"><span class="Apple-converted-space">                </span>});</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>// 初始化步骤2：物品选择器</p>
+<p class="p1"><span class="Apple-converted-space">            </span>function initItemSelector() {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>const itemSelector = document.getElementById('item-selector');</p>
+<p class="p1"><span class="Apple-converted-space">                </span>const items = [</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>{ icon: 'fas fa-couch', label: '沙发', value: 'sofa' },</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>{ icon: 'fas fa-tv', label: '电视/柜', value: 'tv' },</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>{ icon: 'fas fa-tree', label: '绿植', value: 'plant' },</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>{ icon: 'fas fa-box', label: '储物柜', value: 'cabinet' },</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>{ icon: 'fas fa-wind', label: '空调/风扇', value: 'ac' },</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>{ icon: 'fas fa-lightbulb', label: '落地灯', value: 'lamp' },</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>{ icon: 'fas fa-book', label: '书架', value: 'bookshelf' },</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>{ icon: 'fas fa-question', label: '其他', value: 'other' }</p>
+<p class="p1"><span class="Apple-converted-space">                </span>];</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>items.forEach(item =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>const option = document.createElement('div');</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>option.className = 'item-option';</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>option.dataset.item = item.value;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>option.innerHTML = `</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;i class="${item.icon}"&gt;&lt;/i&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;span&gt;${item.label}&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>`;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span></p>
+<p class="p1"><span class="Apple-converted-space">                    </span>option.addEventListener('click', function() {</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>// 移除其他选项的选择状态</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>document.querySelectorAll('.item-option').forEach(opt =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>opt.classList.remove('selected');</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>});</p>
+<p class="p2"><span class="Apple-converted-space">                        </span></p>
+<p class="p1"><span class="Apple-converted-space">                        </span>// 标记当前选项为选中</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>this.classList.add('selected');</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>});</p>
+<p class="p2"><span class="Apple-converted-space">                    </span></p>
+<p class="p1"><span class="Apple-converted-space">                    </span>itemSelector.appendChild(option);</p>
+<p class="p1"><span class="Apple-converted-space">                </span>});</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>// 初始化步骤3：能量评估选项</p>
+<p class="p1"><span class="Apple-converted-space">            </span>function initEnergyOptions() {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>const options = document.querySelectorAll('.option');</p>
+<p class="p1"><span class="Apple-converted-space">                </span>options.forEach(option =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>option.addEventListener('click', function() {</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>const questionElement = this.closest('.energy-question');</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>const questionIndex = Array.from(document.querySelectorAll('.energy-question')).indexOf(questionElement);</p>
+<p class="p2"><span class="Apple-converted-space">                        </span></p>
+<p class="p1"><span class="Apple-converted-space">                        </span>// 移除同一问题的其他选项的选择状态</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>questionElement.querySelectorAll('.option').forEach(opt =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>opt.classList.remove('selected');</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>});</p>
+<p class="p2"><span class="Apple-converted-space">                        </span></p>
+<p class="p1"><span class="Apple-converted-space">                        </span>// 标记当前选项为选中</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>this.classList.add('selected');</p>
+<p class="p2"><span class="Apple-converted-space">                        </span></p>
+<p class="p1"><span class="Apple-converted-space">                        </span>// 存储答案</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>userData.energyAnswers[`q${questionIndex + 1}`] = this.dataset.value;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>});</p>
+<p class="p1"><span class="Apple-converted-space">                </span>});</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>// 收集步骤1数据</p>
+<p class="p1"><span class="Apple-converted-space">            </span>function collectStep1Data() {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>userData.name = document.getElementById('user-name').value || '未知用户';</p>
+<p class="p1"><span class="Apple-converted-space">                </span>userData.birthYear = document.getElementById('birth-year').value;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>userData.careerType = document.getElementById('career-type').value;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>userData.financialIssue = document.getElementById('financial-issue').value;</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>// 验证必填项</p>
+<p class="p1"><span class="Apple-converted-space">                </span>if (!userData.birthYear || !userData.careerType || !userData.financialIssue) {</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>alert('请填写所有必填信息');</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>return false;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>}</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>return true;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>// 生成诊断报告</p>
+<p class="p1"><span class="Apple-converted-space">            </span>function generateReport() {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>// 更新报告头部信息</p>
+<p class="p1"><span class="Apple-converted-space">                </span>document.getElementById('report-user-name').textContent = userData.name;</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>const careerTextMap = {</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>'metal': '金融/法律/管理（金）',</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>'wood': '教育/文化/创意（木）',</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>'water': '贸易/物流/咨询（水）',</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>'fire': '科技/能源/餐饮（火）',</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>'earth': '房地产/建筑/农业（土）'</p>
+<p class="p1"><span class="Apple-converted-space">                </span>};</p>
+<p class="p1"><span class="Apple-converted-space">                </span>document.getElementById('report-career-type').textContent = careerTextMap[userData.careerType] || userData.careerType;</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>const now = new Date();</p>
+<p class="p1"><span class="Apple-converted-space">                </span>document.getElementById('report-date').textContent = `${now.getFullYear()}年${now.getMonth() + 1}月${now.getDate()}日`;</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>// 生成能量分数（基于算法）</p>
+<p class="p1"><span class="Apple-converted-space">                </span>const scores = calculateEnergyScores();</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>// 更新分数显示</p>
+<p class="p1"><span class="Apple-converted-space">                </span>document.getElementById('score-opportunity').textContent = scores.opportunity;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>document.getElementById('score-risk').textContent = scores.risk;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>document.getElementById('score-stability').textContent = scores.stability;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>document.getElementById('score-help').textContent = scores.help;</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>// 生成雷达图</p>
+<p class="p1"><span class="Apple-converted-space">                </span>generateRadarChart(scores);</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>// 生成问题诊断</p>
+<p class="p1"><span class="Apple-converted-space">                </span>generateProblemDiagnosis(scores);</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>// 生成解决方案</p>
+<p class="p1"><span class="Apple-converted-space">                </span>generateSolutions();</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>// 生成推荐产品</p>
+<p class="p1"><span class="Apple-converted-space">                </span>generateRecommendedProducts();</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>userData.reportGenerated = true;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>// 计算能量分数</p>
+<p class="p1"><span class="Apple-converted-space">            </span>function calculateEnergyScores() {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>// 基础分数（基于出生年份）</p>
+<p class="p1"><span class="Apple-converted-space">                </span>let baseScore = 50;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>if (userData.birthYear) {</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>const year = parseInt(userData.birthYear);</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>const lastDigit = year % 10;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>baseScore = 40 + lastDigit * 6;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>}</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>// 职业类型加成</p>
+<p class="p1"><span class="Apple-converted-space">                </span>const careerBonus = {</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>'metal': { opportunity: 15, risk: 10, stability: 20, help: 5 },</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>'wood': { opportunity: 20, risk: 5, stability: 10, help: 15 },</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>'water': { opportunity: 25, risk: 15, stability: 5, help: 10 },</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>'fire': { opportunity: 10, risk: 20, stability: 15, help: 5 },</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>'earth': { opportunity: 5, risk: 10, stability: 25, help: 10 }</p>
+<p class="p1"><span class="Apple-converted-space">                </span>};</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>const bonus = careerBonus[userData.careerType] || { opportunity: 0, risk: 0, stability: 0, help: 0 };</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>// 布局影响</p>
+<p class="p1"><span class="Apple-converted-space">                </span>let layoutBonus = { opportunity: 0, risk: 0, stability: 0, help: 0 };</p>
+<p class="p1"><span class="Apple-converted-space">                </span>const southeastItems = Object.keys(userData.layout).filter(key =&gt; key === 'southeast' &amp;&amp; userData.layout[key]);</p>
+<p class="p1"><span class="Apple-converted-space">                </span>const northwestItems = Object.keys(userData.layout).filter(key =&gt; key === 'northwest' &amp;&amp; userData.layout[key]);</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>if (southeastItems.length &gt; 0) layoutBonus.opportunity += 10;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>if (northwestItems.length &gt; 0) layoutBonus.help += 10;</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>// 答案影响</p>
+<p class="p1"><span class="Apple-converted-space">                </span>let answerBonus = { opportunity: 0, risk: 0, stability: 0, help: 0 };</p>
+<p class="p1"><span class="Apple-converted-space">                </span>const answers = userData.energyAnswers;</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>if (answers.q1 === 'bright') answerBonus.stability += 10;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>if (answers.q1 === 'crowded') answerBonus.opportunity -= 5;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>if (answers.q2 === 'few' || answers.q2 === 'none') answerBonus.stability += 10;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>if (answers.q2 === 'many') answerBonus.risk -= 10;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>if (answers.q3 === 'lush') answerBonus.opportunity += 15;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>if (answers.q3 === 'none') answerBonus.opportunity -= 5;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>if (answers.q4 === 'opportunity') answerBonus.help += 5;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>if (answers.q4 === 'stagnation') answerBonus.opportunity += 10;</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>// 计算最终分数</p>
+<p class="p1"><span class="Apple-converted-space">                </span>const scores = {</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>opportunity: Math.min(100, Math.max(0, baseScore + bonus.opportunity + layoutBonus.opportunity + answerBonus.opportunity)),</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>risk: Math.min(100, Math.max(0, baseScore + bonus.risk + layoutBonus.risk + answerBonus.risk)),</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>stability: Math.min(100, Math.max(0, baseScore + bonus.stability + layoutBonus.stability + answerBonus.stability)),</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>help: Math.min(100, Math.max(0, baseScore + bonus.help + layoutBonus.help + answerBonus.help))</p>
+<p class="p1"><span class="Apple-converted-space">                </span>};</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>return scores;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>// 生成雷达图</p>
+<p class="p1"><span class="Apple-converted-space">            </span>function generateRadarChart(scores) {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>const radarChart = document.getElementById('radar-chart');</p>
+<p class="p1"><span class="Apple-converted-space">                </span>radarChart.innerHTML = '';</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>// 添加网格</p>
+<p class="p1"><span class="Apple-converted-space">                </span>for (let i = 0; i &lt; 3; i++) {</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>const grid = document.createElement('div');</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>grid.className = 'radar-grid';</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>radarChart.appendChild(grid);</p>
+<p class="p1"><span class="Apple-converted-space">                </span>}</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>// 分数点位置计算</p>
+<p class="p1"><span class="Apple-converted-space">                </span>const centerX = 150;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>const centerY = 150;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>const radius = 100;</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>const angles = [0, 90, 180, 270]; // 四个维度角度</p>
+<p class="p1"><span class="Apple-converted-space">                </span>const labels = ['机遇敏感度', '贵人运势', '积累稳定性', '风险抵御力'];</p>
+<p class="p1"><span class="Apple-converted-space">                </span>const scoreValues = [scores.opportunity, scores.help, scores.stability, scores.risk];</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>// 添加标签</p>
+<p class="p1"><span class="Apple-converted-space">                </span>labels.forEach((label, index) =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>const angle = angles[index] * Math.PI / 180;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>const labelX = centerX + (radius + 30) * Math.sin(angle);</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>const labelY = centerY - (radius + 30) * Math.cos(angle);</p>
+<p class="p2"><span class="Apple-converted-space">                    </span></p>
+<p class="p1"><span class="Apple-converted-space">                    </span>const labelElement = document.createElement('div');</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>labelElement.className = 'radar-label';</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>labelElement.textContent = label;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>labelElement.style.left = `${labelX}px`;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>labelElement.style.top = `${labelY}px`;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>labelElement.style.transform = 'translate(-50%, -50%)';</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>radarChart.appendChild(labelElement);</p>
+<p class="p1"><span class="Apple-converted-space">                </span>});</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>// 添加分数点</p>
+<p class="p1"><span class="Apple-converted-space">                </span>scoreValues.forEach((score, index) =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>const angle = angles[index] * Math.PI / 180;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>const pointRadius = radius * (score / 100);</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>const pointX = centerX + pointRadius * Math.sin(angle);</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>const pointY = centerY - pointRadius * Math.cos(angle);</p>
+<p class="p2"><span class="Apple-converted-space">                    </span></p>
+<p class="p1"><span class="Apple-converted-space">                    </span>const point = document.createElement('div');</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>point.className = 'radar-point';</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>point.style.left = `${pointX}px`;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>point.style.top = `${pointY}px`;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>radarChart.appendChild(point);</p>
+<p class="p1"><span class="Apple-converted-space">                </span>});</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>// 生成问题诊断</p>
+<p class="p1"><span class="Apple-converted-space">            </span>function generateProblemDiagnosis(scores) {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>const problemDiv = document.getElementById('problem-diagnosis');</p>
+<p class="p1"><span class="Apple-converted-space">                </span>let diagnosisHTML = '';</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>// 确定最低分维度</p>
+<p class="p1"><span class="Apple-converted-space">                </span>let minScore = 100;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>let minDimension = '';</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>for (const [dimension, score] of Object.entries(scores)) {</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>if (score &lt; minScore) {</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>minScore = score;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>minDimension = dimension;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">                </span>}</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>// 基于最低分维度生成诊断</p>
+<p class="p1"><span class="Apple-converted-space">                </span>const dimensionNames = {</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>opportunity: '机遇敏感度',</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>risk: '风险抵御力',</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>stability: '积累稳定性',</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>help: '贵人运势'</p>
+<p class="p1"><span class="Apple-converted-space">                </span>};</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>const dimensionIssues = {</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>opportunity: {</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>title: '机遇感知力待提升',</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>description: '您的家居能量场在东南方（巽位，象征流动财）可能存在阻塞，导致对新兴机会的敏感度不足，容易错过有价值的财务增长点。',</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>reason: '可能与东南方位物品摆放不当或能量流动不畅有关。'</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>},</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>risk: {</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>title: '财务风险抵御较弱',</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>description: '您的家居格局在正北方（坎位，象征风险抵御）能量不足，可能导致财务决策时缺乏足够的安全边界，易受意外支出或投资风险影响。',</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>reason: '正北方若有杂物堆积或阴暗潮湿，会削弱此方位能量。'</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>},</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>stability: {</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>title: '财富积累稳定性不足',</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>description: '西南方（坤位，关系财富积累）的能量场需要加强，这可能影响您的储蓄能力和长期财务稳定性，导致财富难以有效沉淀。',</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>reason: '西南方若有大型电器或流动性物品，会扰乱积累能量。'</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>},</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>help: {</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>title: '贵人助力通道不畅',</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>description: '西北方（乾位，象征贵人运）的能量流动可能受阻，这会影响您在事业和财务上获得关键帮助与资源支持的机会。',</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>reason: '西北方若有污秽物品或缺失重要能量元素，会关闭贵人通道。'</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">                </span>};</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>const issue = dimensionIssues[minDimension] || dimensionIssues.opportunity;</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>diagnosisHTML = `</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div style="margin-bottom: 25px;"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;h4 style="color: var(--accent-gold); margin-bottom: 10px;"&gt;${issue.title}&lt;/h4&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;p&gt;${issue.description}&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;p&gt;${issue.reason}&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div style="background-color: rgba(212, 175, 55, 0.05); padding: 20px; border-radius: 8px; border-left: 3px solid var(--accent-gold);"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;h4 style="color: var(--accent-light); margin-bottom: 10px;"&gt;💡 专业解读&lt;/h4&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;p&gt;在传统风水学中，家居的八个方位对应不同的生命领域。${userData.name}的家居能量评估显示，您的${dimensionNames[minDimension]}得分仅为${minScore}分，是四个维度中最需要优化的领域。结合您的${careerTextMap[userData.careerType] || ''}职业属性，这可能会放大您在财务上的特定挑战。&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>`;</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>problemDiv.innerHTML = diagnosisHTML;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>// 生成解决方案</p>
+<p class="p1"><span class="Apple-converted-space">            </span>function generateSolutions() {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>// 移动方案</p>
+<p class="p1"><span class="Apple-converted-space">                </span>const moveSolutions = {</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>metal: '建议移走客厅正西（兑位）和西北（乾位）的红色物品或尖锐金属物品，这些会与您的"金"属性产生冲突，消耗财运能量。',</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>wood: '建议清理东南（巽位）堆积的金属物品或废旧电器，这些会压制您的"木"属性生长能量，阻碍新的财务机会。',</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>water: '建议移走客厅正南（离位）的大型土质装饰或陶瓷摆件，这些会形成"土克水"格局，阻碍财富流动。',</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>fire: '建议移走正北（坎位）的大型水元素装饰或黑色家具，这些会与您的"火"属性形成"水克火"格局，压制财运能量。',</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>earth: '建议清理正东（震位）和东南（巽位）的过多绿植或木质家具，这些会形成"木克土"格局，消耗您的稳定积累能量。'</p>
+<p class="p1"><span class="Apple-converted-space">                </span>};</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>document.getElementById('solution-move').innerHTML =<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                    </span>moveSolutions[userData.careerType] || '建议定期清理家中各角落的杂物，特别是西南（坤位）和东北（艮位），保持能量流动通畅。';</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>// 增加方案</p>
+<p class="p1"><span class="Apple-converted-space">                </span>const addSolutions = {</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>metal: '在客厅西北（乾位）增加白色、金色或圆形金属饰品，如铜铃、金属摆件，强化贵人运势与决策力。',</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>wood: '在客厅东南（巽位）增加健康绿植或木质装饰，如发财树、绿萝，并用小型流水装饰激活财运流动。',</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>water: '在客厅正北（坎位）增加蓝色、黑色装饰或小型水景，如鱼缸、流水摆件，增强财富流动性与风险抵御力。',</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>fire: '在客厅正南（离位）增加红色、紫色装饰或温和光源，如红色靠垫、盐灯，激活财运能量与行动力。',</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>earth: '在客厅西南（坤位）增加黄色、棕色陶器或水晶洞，如黄水晶、陶瓷花瓶，强化财富积累稳定性。'</p>
+<p class="p1"><span class="Apple-converted-space">                </span>};</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>document.getElementById('solution-add').innerHTML =<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                    </span>addSolutions[userData.careerType] || '在客厅财位（根据具体户型确定）增加与您五行相生的能量物品，增强整体财运能量场。';</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>// 强化方案</p>
+<p class="p1"><span class="Apple-converted-space">                </span>const strengthenSolutions = {</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>metal: '在书房或工作区摆放白水晶簇或铜制文昌塔，强化决策智慧与职业发展，帮助抓住关键财务机会。',</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>wood: '在阳台或窗台摆放开运竹或兰花，配合绿色窗帘，建立"生机勃勃"的能量场，吸引成长性财富机会。',</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>water: '在进门对角线位置（明财位）摆放黑曜石或海蓝宝水晶，配合小型流水装置，建立"财源滚滚"的能量循环。',</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>fire: '在客厅中心区域摆放紫水晶或红色玛瑙摆件，配合暖色调灯光，激活"热情积极"的财运能量场。',</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>earth: '在卧室西南角摆放黄水晶或陶瓷聚宝盆，配合稳定光源，建立"厚实稳固"的财富积累能量场。'</p>
+<p class="p1"><span class="Apple-converted-space">                </span>};</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>document.getElementById('solution-strengthen').innerHTML =<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                    </span>strengthenSolutions[userData.careerType] || '在家中财位摆放与您命理五行相匹配的水晶或能量摆件，持续强化财运能量场。';</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>// 生成推荐产品</p>
+<p class="p1"><span class="Apple-converted-space">            </span>function generateRecommendedProducts() {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>const productsDiv = document.getElementById('recommended-products');</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>const productsByCareer = {</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>metal: [</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>{ name: '黄铜招财麒麟', price: '¥368', icon: 'fas fa-dragon' },</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>{ name: '白水晶能量簇', price: '¥458', icon: 'fas fa-gem' },</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>{ name: '五行金属风铃', price: '¥298', icon: 'fas fa-wind' }</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>],</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>wood: [</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>{ name: '天然紫檀木财神', price: '¥588', icon: 'fas fa-tree' },</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>{ name: '绿幽灵水晶摆件', price: '¥428', icon: 'fas fa-leaf' },</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>{ name: '文昌塔绿植套装', price: '¥328', icon: 'fas fa-seedling' }</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>],</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>water: [</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>{ name: '黑曜石七星阵', price: '¥518', icon: 'fas fa-circle' },</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>{ name: '流水生财摆件', price: '¥398', icon: 'fas fa-water' },</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>{ name: '海蓝宝原石', price: '¥368', icon: 'fas fa-gem' }</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>],</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>fire: [</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>{ name: '紫水晶洞聚宝盆', price: '¥688', icon: 'fas fa-mountain' },</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>{ name: '红玛瑙能量柱', price: '¥358', icon: 'fas fa-fire' },</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>{ name: '太阳石摆件', price: '¥428', icon: 'fas fa-sun' }</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>],</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>earth: [</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>{ name: '黄水晶聚宝树', price: '¥558', icon: 'fas fa-tree' },</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>{ name: '陶瓷貔貅摆件', price: '¥488', icon: 'fas fa-paw' },</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>{ name: '泰山石敢当', price: '¥398', icon: 'fas fa-mountain' }</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>]</p>
+<p class="p1"><span class="Apple-converted-space">                </span>};</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>const products = productsByCareer[userData.careerType] || productsByCareer.metal;</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>productsDiv.innerHTML = '';</p>
+<p class="p1"><span class="Apple-converted-space">                </span>products.forEach(product =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>const productCard = document.createElement('div');</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>productCard.className = 'product-card';</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>productCard.innerHTML = `</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="product-img"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;i class="${product.icon}"&gt;&lt;/i&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="product-info"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div class="product-name"&gt;${product.name}&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div class="product-price"&gt;${product.price}&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;a href="#" class="btn-buy"&gt;立即请购&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>`;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span></p>
+<p class="p1"><span class="Apple-converted-space">                    </span>// 购买按钮事件</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>productCard.querySelector('.btn-buy').addEventListener('click', function(e) {</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>e.preventDefault();</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>alert(`感谢您对${product.name}的兴趣！请添加客服微信：caistart888 了解更多详情。`);</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>});</p>
+<p class="p2"><span class="Apple-converted-space">                    </span></p>
+<p class="p1"><span class="Apple-converted-space">                    </span>productsDiv.appendChild(productCard);</p>
+<p class="p1"><span class="Apple-converted-space">                </span>});</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>// 事件监听器</p>
+<p class="p1"><span class="Apple-converted-space">            </span>document.getElementById('next-to-step2').addEventListener('click', function() {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>if (collectStep1Data()) {</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>goToStep(2);</p>
+<p class="p1"><span class="Apple-converted-space">                </span>}</p>
+<p class="p1"><span class="Apple-converted-space">            </span>});</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>document.getElementById('back-to-step1').addEventListener('click', function() {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>goToStep(1);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>});</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>document.getElementById('next-to-step3').addEventListener('click', function() {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>// 检查是否至少选择了一个布局物品</p>
+<p class="p1"><span class="Apple-converted-space">                </span>const selectedItems = Object.keys(userData.layout).length;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>if (selectedItems === 0) {</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>alert('请至少选择一个物品并点击布局图中的方位进行摆放');</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>return;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>}</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>goToStep(3);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>});</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>document.getElementById('back-to-step2').addEventListener('click', function() {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>goToStep(2);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>});</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>document.getElementById('generate-report').addEventListener('click', function() {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>// 检查是否回答了所有能量问题</p>
+<p class="p1"><span class="Apple-converted-space">                </span>const answeredQuestions = Object.keys(userData.energyAnswers).length;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>if (answeredQuestions &lt; 4) {</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>alert('请完成所有能量评估问题');</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>return;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>}</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>generateReport();</p>
+<p class="p1"><span class="Apple-converted-space">                </span>goToStep(4);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>});</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>document.getElementById('back-to-step3').addEventListener('click', function() {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>goToStep(1);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>});</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>document.getElementById('save-report').addEventListener('click', function() {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>alert('报告已保存！您也可以截图保存此页面。如需专业咨询，请添加客服微信：caistart888');</p>
+<p class="p1"><span class="Apple-converted-space">            </span>});</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>document.getElementById('copy-link').addEventListener('click', function() {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>navigator.clipboard.writeText(window.location.href)</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>.then(() =&gt; alert('报告链接已复制到剪贴板！'))</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>.catch(() =&gt; alert('复制失败，请手动复制网址'));</p>
+<p class="p1"><span class="Apple-converted-space">            </span>});</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>// 分享按钮事件</p>
+<p class="p1"><span class="Apple-converted-space">            </span>document.querySelector('.share-wechat').addEventListener('click', function() {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>alert('请使用微信扫描分享二维码\n\n专业财运诊断，快来测测你的家居能量场！');</p>
+<p class="p1"><span class="Apple-converted-space">            </span>});</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>document.querySelector('.share-redbook').addEventListener('click', function() {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>alert('请打开小红书App分享此页面\n\n#财运测试 #家居风水 #能量提升');</p>
+<p class="p1"><span class="Apple-converted-space">            </span>});</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>// 初始化所有组件</p>
+<p class="p1"><span class="Apple-converted-space">            </span>initBirthYearOptions();</p>
+<p class="p1"><span class="Apple-converted-space">            </span>initLayoutGrid();</p>
+<p class="p1"><span class="Apple-converted-space">            </span>initItemSelector();</p>
+<p class="p1"><span class="Apple-converted-space">            </span>initEnergyOptions();</p>
+<p class="p1"><span class="Apple-converted-space">        </span>});</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/script&gt;</p>
+<p class="p1">&lt;/body&gt;</p>
+<p class="p1">&lt;/html&gt;</p>
+</body>
+</html>
